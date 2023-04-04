@@ -1,0 +1,103 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+   background: #233142;
+}
+.container 
+{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.point
+{
+    position: absolute;
+    top: 4%;
+    color: #fff;
+}
+.card_answer
+{
+  background: linear-gradient(225deg, #202c3b, #253447);
+  box-shadow:  -35px 35px 70px #1a2430,
+                 35px -35px 70px #2c3e54;
+  border-radius: 10px;
+  height: auto;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.answer
+{
+    position: relative;
+    bottom: 60px;
+    background: #adf7d1;
+    width: 110%;
+    height: 140px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 70px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(225deg, #202c3b, #253447);
+    box-shadow:  -35px 35px 70px #1a2430,
+                 35px -35px 70px #2c3e54;
+    color: #fff;
+}
+.answer h4 
+{
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card_answer span 
+{
+    width: 90%;
+    margin-bottom: 20px;
+    height: 50px;
+    background: rgba( 255, 255, 255, 0.15 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 14px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .2s ease-in;
+}
+.card_answer span:hover
+{
+    box-shadow: initial;
+}
+.next 
+{
+   position: relative;
+   bottom: 10px;
+   left: 140px;
+   padding: 8px;
+   outline: none;
+   background: rgba( 255, 255, 255, 0.15 );
+   backdrop-filter: blur( 4px );
+   -webkit-backdrop-filter: blur( 4px );
+   border-radius: 10px;
+   border: 1px solid rgba( 255, 255, 255, 0.18 );
+   color: #fff;
+   opacity: 0.8;
+   cursor: pointer;
+   margin-top: 20px;
+}
