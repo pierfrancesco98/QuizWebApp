@@ -46,13 +46,13 @@ const points = document.querySelector('.score');
               score = 0;
               points.innerHTML =  score + '/10';
               setTimeout(function() {
-              removeRisp()
-              createRisp()
+              removeRisp();
+              createRisp();
              },2000);
           }
           setTimeout(function() {
-          removeRisp()
-          createRisp()
+          removeRisp();
+          createRisp();
         },2000);
           points.innerHTML = score + '/10';
          }else {
@@ -64,13 +64,13 @@ const points = document.querySelector('.score');
               score = 0;
               points.innerHTML =  score + '/10';
           setTimeout(function() {
-          removeRisp()
-          createRisp()
+          removeRisp();
+          createRisp();
         },2000);
           }
           setTimeout(function() {
-          removeRisp()
-          createRisp()
+          removeRisp();
+          createRisp();
         },2000);
          }
         })
